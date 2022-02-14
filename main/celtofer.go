@@ -6,6 +6,10 @@ import (
 
 func main() {
 
+	fmt.Println("================")
+	fmt.Println("==== F to C ====")
+	fmt.Println("================")
+
 	var input float64
 	fmt.Printf("Enter temp. in F : ")
 	fmt.Scanf("%f", &input)
@@ -14,8 +18,6 @@ func main() {
 
 	output = ((input - 32) * 5/9)
 
-	fmt.Println("================")
-	fmt.Println("==== F to C ====")
 	fmt.Println("================")
 
 	fmt.Println("Temp. in Celcius : ", output)
